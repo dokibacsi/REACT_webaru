@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+article{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 10px;
+}
+
+.termek{
+  border: 5px solid black;
+  margin: 10px;
+  background-color: lightgray;
+  width: 500px;
+  padding: 10px;
+}
+
+.termek img{
+  width: 400px;
+}
+
+button{
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background-color: rgb(138, 228, 138);
+}
+
+button:hover{
+  background-color: lightgreen;
+}
